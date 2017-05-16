@@ -396,8 +396,7 @@ void fATWM(int argc, char *argv[]){
 			#define fwd_port 5001
 
 			broadcast_pcb = udp_new();
-			//38.132.37.5
-			//IP4_ADDR(&forward_ip, 38, 132, 37, 5);
+
 			//192.168.1.3
 			IP4_ADDR(&forward_ip, 192, 168, 1, 3);
 			//IP4_ADDR(&forward_ip, 192, 168, 1, 1);
